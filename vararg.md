@@ -1,6 +1,7 @@
 ---
-project: vararg
-tagline: fast vararg utils
+project:  vararg
+tagline:  fast vararg utils
+category: Language
 ---
 
 v1.0.1 | © 2010-2011 Tecgraf, PUC-Rio. | LuaJIT 2, Lua 5.1
