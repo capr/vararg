@@ -4,8 +4,6 @@ tagline:  fast vararg utils
 category: Language
 ---
 
-v1.0.1 | © 2010-2011 Tecgraf, PUC-Rio. | LuaJIT 2, Lua 5.1
-
 ## `local vararg = require'vararg'`
 
  `vararg` is a Lua library for manipulation of variable arguements (vararg) of functions. These functions basically allow you to do things with vararg that cannot be efficiently done in pure Lua but can be easily done through the C API.
