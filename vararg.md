@@ -1,7 +1,6 @@
 ---
 project:  vararg
 tagline:  fast vararg utils
-category: Language
 ---
 
 ## `local vararg = require'vararg'`
