@@ -1,1 +1,2 @@
 vararg 1.0.1 from http://www.tecgraf.puc-rio.br/~maia/lua/vararg/ (MIT license)
+requires: lua-headers, luajit
