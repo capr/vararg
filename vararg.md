@@ -1,6 +1,6 @@
 ---
-project:  vararg
-tagline:  fast vararg utils
+project: vararg
+tagline: vararg manipulation
 ---
 
 ## `local vararg = require'vararg'`
