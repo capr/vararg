@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc vararg.c -shared -o ../../bin/mingw32/clib/vararg.dll -ansi -I../lua -L../../bin/mingw32 -llua51
+P=mingw32 L="-s -static-libgcc -llua51" D=vararg.dll A=vararg.a ./build.sh

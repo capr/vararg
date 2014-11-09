@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc -fPIC vararg.c -shared -o ../../bin/linux64/clib/vararg.so -ansi -I../lua
+P=linux64 C=-fPIC L="-s -static-libgcc" D=vararg.so A=libvararg.a ./build.sh

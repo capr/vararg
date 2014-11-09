@@ -1,1 +1,2 @@
-gcc -arch i386 -O2 vararg.c -shared -o ../../bin/osx32/clib/vararg.so -ansi -I../lua -undefined dynamic_lookup
+P=osx32 C="-arch i386" L="-arch i386 -undefined dynamic_lookup" \
+	D=vararg.so A=libvararg.a ./build.sh

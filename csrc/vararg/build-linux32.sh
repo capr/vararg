@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc vararg.c -shared -o ../../bin/linux32/clib/vararg.so -ansi -I../lua
+P=linux32 L="-s -static-libgcc" D=vararg.so A=libvararg.a ./build.sh

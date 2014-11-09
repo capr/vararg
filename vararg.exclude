@@ -22,5 +22,11 @@
 !/bin/linux64/clib/vararg*
 !/bin/osx32/clib/vararg*
 !/bin/osx64/clib/vararg*
+!/bin/mingw32/vararg*
+!/bin/mingw64/vararg*
+!/bin/linux32/libvararg*
+!/bin/linux64/libvararg*
+!/bin/osx32/libvararg*
+!/bin/osx64/libvararg*
 !/csrc/vararg/
 !/csrc/vararg/**
