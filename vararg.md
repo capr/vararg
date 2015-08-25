@@ -1,5 +1,4 @@
 ---
-project: vararg
 tagline: vararg manipulation
 ---
 
