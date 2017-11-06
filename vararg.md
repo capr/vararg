@@ -17,6 +17,8 @@ p = vararg.pack(...)
   for i,v in p do  --> for i,v in apairs(...) do
 ~~~
 
+## API
+
 ------------------------------- ------------------------------------------------------------------------------------
 `vararg.range(i, j, ...)`       unpack({...}, i, j)
 `vararg.remove(i, ...)`         t={...} table.remove(t,i) return unpack(t,1,select("#",...)-1)
