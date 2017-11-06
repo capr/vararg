@@ -8,6 +8,8 @@ Lua library for manipulating variable arguements (vararg) of functions.
 These functions allow you to do things with varargs that cannot be
 efficiently done in pure Lua but can be easily done through the C API.
 
+__NOTE:__ This library is not that useful with LuaJIT because these functions cannot be inlined.
+
 ~~~{.lua}
 p = vararg.pack(...)
   p()              --> ...
@@ -28,5 +30,3 @@ p = vararg.pack(...)
 `vararg.map(f, ...)`            t={} n=select("#",...) for i=1,n do t[i]=f((select(i,...))) end return unpack(t,1,n)
 `vararg.concat(f1,f2,...)`      return all the values returned by functions 'f1,f2,...'
 ------------------------------- ------------------------------------------------------------------------------------
-
-__NOTE:__ This library is not that useful with LuaJIT because these functions cannot be inlined.
